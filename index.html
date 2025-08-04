@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Problem Solutions</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        h3 {
+            color: #2980b9;
+        }
+        .problem {
+            background-color: white;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .links {
+            margin-top: 15px;
+        }
+        .links a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Coding Problem Solutions</h1>
+            <p>Comprehensive collection of solutions with links to GeeksforGeeks and InterviewBit</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="array-problems">
+            <h2>Array Problems</h2>
+            
+            <div class="problem">
+                <h3>Two Sum</h3>
+                <p>Find two numbers in an array that add up to a specific target.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/2-sum/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Best Time to Buy and Sell Stock</h3>
+                <p>Find the maximum profit from buying and selling stocks.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/stock-buy-sell/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/best-time-to-buy-and-sell-stocks-i/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Contains Duplicate</h3>
+                <p>Check if array contains any duplicates.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/find-duplicate-in-array/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Product of Array Except Self</h3>
+                <p>Return an array where each element is the product of all elements except itself.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/product-array-puzzle-set-2-o1-space/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/product-of-all/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Maximum Subarray (Kadane's Algorithm)</h3>
+                <p>Find the contiguous subarray with the largest sum.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/max-sum-contiguous-subarray/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Maximum Product Subarray</h3>
+                <p>Find the contiguous subarray with the largest product.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/maximum-product-subarray/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/max-product-subarray/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Find Minimum in Rotated Sorted Array</h3>
+                <p>Find the minimum element in a rotated sorted array.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/find-minimum-element-in-a-sorted-and-rotated-array/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/rotated-array/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Search in Rotated Sorted Array</h3>
+                <p>Search for a target value in a rotated sorted array.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/rotated-sorted-array-search/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>3Sum</h3>
+                <p>Find all unique triplets in the array that sum to zero.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/find-triplets-array-whose-sum-equal-zero/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/3-sum/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Container With Most Water</h3>
+                <p>Find two lines that together with the x-axis form a container that holds the most water.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/container-with-most-water/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/container-with-most-water/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="dp-problems">
+            <h2>Dynamic Programming Problems</h2>
+            
+            <div class="problem">
+                <h3>Climbing Stairs</h3>
+                <p>Count ways to reach the nth stair using step 1, 2 or 3.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/count-ways-reach-nth-stair/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/stairs/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Coin Change</h3>
+                <p>Minimum number of coins needed to make up an amount.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/coin-change-dp-7/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/coin-sum-infinite/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Longest Increasing Subsequence (LIS)</h3>
+                <p>Find the length of the longest subsequence that is strictly increasing.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/longest-increasing-subsequence/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Longest Common Subsequence (LCS)</h3>
+                <p>Find the length of the longest subsequence present in both strings.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/longest-common-subsequence/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Word Break Problem</h3>
+                <p>Determine if a string can be segmented into space-separated dictionary words.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/word-break-problem-dp-32/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/word-break/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Combination Sum</h3>
+                <p>Find all unique combinations where candidate numbers sum to target.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/combinational-sum/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/combination-sum/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>House Robber</h3>
+                <p>Maximum amount of money you can rob without alerting adjacent houses.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/max-sum-without-adjacent-elements/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>House Robber II</h3>
+                <p>House Robber problem with houses arranged in a circle.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/maximum-sum-in-circular-array/" target="_blank">GFG Solution (Similar concept)</a>
+                    <a href="https://www.interviewbit.com/problems/max-sum-path-in-binary-tree/" target="_blank">InterviewBit Solution (Alternative)</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Decode Ways</h3>
+                <p>Count number of ways to decode a digit string to letters (A=1, B=2,...Z=26).</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/ways-to-decode/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Unique Paths</h3>
+                <p>Count all possible paths from top-left to bottom-right of a grid.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/count-possible-paths-top-left-bottom-right-nxm-matrix/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/grid-unique-paths/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Jump Game</h3>
+                <p>Determine if you can reach the last index of an array where each element represents max jump length.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/jump-game-array/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="graph-problems">
+            <h2>Graph Problems</h2>
+            
+            <div class="problem">
+                <h3>Clone Graph</h3>
+                <p>Return a deep copy of an undirected graph.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/clone-an-undirected-graph/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/clone-graph/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Course Schedule (Topological Sort)</h3>
+                <p>Determine if you can finish all courses given prerequisites.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/find-whether-it-is-possible-to-finish-all-tasks-or-not-from-given-dependencies/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/possibility-of-finishing-all-courses-given-prerequisites/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Pacific Atlantic Water Flow</h3>
+                <p>Find cells where water can flow to both Pacific and Atlantic oceans.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/find-water-in-a-glass/" target="_blank">GFG Solution (Alternative)</a>
+                    <a href="https://www.interviewbit.com/problems/water-flow/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Number of Islands (DFS/BFS)</h3>
+                <p>Count the number of islands in a 2D grid map.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/find-number-of-islands/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/black-shapes/" target="_blank">InterviewBit Solution (Similar)</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Longest Consecutive Sequence</h3>
+                <p>Find the length of the longest consecutive elements sequence.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/longest-consecutive-subsequence/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/longest-consecutive-sequence/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Alien Dictionary (LeetCode Premium)</h3>
+                <p>Return the order of letters in an alien language given sorted words.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/alien-dictionary/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Graph Valid Tree (LeetCode Premium)</h3>
+                <p>Check if a given undirected graph is a valid tree.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/check-given-graph-tree/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/valid-path/" target="_blank">InterviewBit Solution (Alternative)</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Number of Connected Components in an Undirected Graph (LeetCode Premium)</h3>
+                <p>Count the number of connected components in an undirected graph.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/possibility-of-finishing-all-courses-given-prerequisites/" target="_blank">InterviewBit Solution (Alternative)</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="interval-problems">
+            <h2>Interval Problems</h2>
+            
+            <div class="problem">
+                <h3>Insert Interval</h3>
+                <p>Insert a new interval into a collection of non-overlapping intervals.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/insert-interval-into-intervals/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/merge-intervals/" target="_blank">InterviewBit Solution (Similar)</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Merge Intervals</h3>
+                <p>Merge all overlapping intervals.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/merging-intervals/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/merge-intervals/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Non-overlapping Intervals</h3>
+                <p>Find the minimum number of intervals to remove to make the rest non-overlapping.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/find-non-overlapping-intervals-among-a-given-set-of-intervals/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/disjoint-intervals/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Meeting Rooms (LeetCode Premium)</h3>
+                <p>Determine if a person could attend all meetings.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/find-maximum-meetings-in-one-room/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/meeting-rooms/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Meeting Rooms II (LeetCode Premium)</h3>
+                <p>Find the minimum number of conference rooms required.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/" target="_blank">GFG Solution (Similar)</a>
+                    <a href="https://www.interviewbit.com/problems/meeting-rooms-ii/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="linked-list-problems">
+            <h2>Linked List Problems</h2>
+            
+            <div class="problem">
+                <h3>Reverse a Linked List</h3>
+                <p>Reverse a singly linked list.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/reverse-a-linked-list/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/reverse-linked-list/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Detect Cycle in a Linked List</h3>
+                <p>Determine if a linked list has a cycle in it.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/list-cycle/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Merge Two Sorted Lists</h3>
+                <p>Merge two sorted linked lists and return as one sorted list.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/merge-two-sorted-lists/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Merge K Sorted Lists</h3>
+                <p>Merge k sorted linked lists and return it as one sorted list.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/merge-k-sorted-linked-lists/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/merge-k-sorted-lists/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Remove Nth Node From End Of List</h3>
+                <p>Remove the nth node from the end of a linked list.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/delete-nth-node-from-the-end-of-the-given-linked-list/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/remove-nth-node-from-list-end/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Reorder List</h3>
+                <p>Reorder a linked list in the form: L0 → Ln → L1 → Ln-1 → L2 → Ln-2 → ...</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/rearrange-a-given-linked-list-in-place/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/reorder-list/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="matrix-problems">
+            <h2>Array & Matrix Problems</h2>
+            
+            <div class="problem">
+                <h3>Set Matrix Zeroes</h3>
+                <p>If an element is 0, set its entire row and column to 0.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/set-matrix-zeroes-constant-space/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/set-matrix-zeros/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Spiral Matrix</h3>
+                <p>Return all elements of the matrix in spiral order.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/spiral-order-matrix-i/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Rotate Image (90 Degrees Clockwise)</h3>
+                <p>Rotate an n x n 2D matrix by 90 degrees (clockwise).</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/rotate-a-matrix-by-90-degree-in-clockwise-direction-without-using-any-extra-space/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/rotate-matrix/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Word Search (Backtracking)</h3>
+                <p>Search for a word in a 2D grid of letters.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/word-search/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/word-search-board/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="string-problems">
+            <h2>String Problems</h2>
+            
+            <div class="problem">
+                <h3>Longest Substring Without Repeating Characters</h3>
+                <p>Find the length of the longest substring without repeating characters.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/longest-substring-without-repeat/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Longest Repeating Character Replacement</h3>
+                <p>Find the length of the longest substring containing same letters after k replacements.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/longest-repeating-character-replacement/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/window-string/" target="_blank">InterviewBit Solution (Similar Sliding Window)</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Minimum Window Substring</h3>
+                <p>Find the smallest substring containing all characters of another string.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/window-string/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Valid Anagram</h3>
+                <p>Determine if two strings are anagrams of each other.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/anagrams/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Group Anagrams</h3>
+                <p>Group all anagrams together from a list of strings.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/anagrams/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Valid Parentheses</h3>
+                <p>Determine if the input string has valid parentheses.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/generate-all-parentheses/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Valid Palindrome</h3>
+                <p>Determine if a string is a palindrome, considering only alphanumeric characters.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/check-if-a-given-string-is-a-palindrome/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/palindrome-string/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Longest Palindromic Substring</h3>
+                <p>Find the longest palindromic substring in a string.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/longest-palindromic-substring/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Palindromic Substrings</h3>
+                <p>Count how many palindromic substrings in a string.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/count-palindrome-sub-strings-string/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/palindromic-substrings/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Encode and Decode Strings (LeetCode Premium)</h3>
+                <p>Design algorithm to encode/decode a list of strings to/from a string.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/encode-decode-string/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/encode-and-decode/" target="_blank">InterviewBit Solution (Alternative)</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="binary-tree-problems">
+            <h2>Binary Tree Problems</h2>
+            
+            <div class="problem">
+                <h3>Maximum Depth of Binary Tree</h3>
+                <p>Find the maximum depth (height) of a binary tree.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/max-depth-of-binary-tree/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Same Tree</h3>
+                <p>Check if two binary trees are identical.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/write-c-code-to-determine-if-two-trees-are-identical/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/identical-binary-trees/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Invert/Flip Binary Tree</h3>
+                <p>Invert a binary tree (mirror image).</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/invert-the-binary-tree/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Binary Tree Maximum Path Sum</h3>
+                <p>Find the maximum path sum between any two nodes in a binary tree.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/max-sum-path-in-binary-tree/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Binary Tree Level Order Traversal</h3>
+                <p>Return the level order traversal of a binary tree's nodes.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/level-order-tree-traversal/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/level-order/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Serialize and Deserialize Binary Tree</h3>
+                <p>Convert a binary tree to string and back.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/serialize-deserialize-binary-tree/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/serialize/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Subtree of Another Tree</h3>
+                <p>Check if a binary tree is subtree of another binary tree.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/check-if-a-binary-tree-is-subtree-of-another-binary-tree/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/subtree-of-another-tree/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Construct Binary Tree from Preorder and Inorder Traversal</h3>
+                <p>Construct binary tree from given preorder and inorder traversal.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/construct-binary-tree-from-inorder-and-preorder/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Validate Binary Search Tree</h3>
+                <p>Check if a binary tree is a valid binary search tree.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/valid-binary-search-tree/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Kth Smallest Element in a BST</h3>
+                <p>Find the kth smallest element in a binary search tree.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/kth-smallest-element-in-tree/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Lowest Common Ancestor of BST</h3>
+                <p>Find the lowest common ancestor of two nodes in a BST.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/least-common-ancestor/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="trie-heap-problems">
+            <h2>Trie & Heap Problems</h2>
+            
+            <div class="problem">
+                <h3>Implement Trie (Prefix Tree)</h3>
+                <p>Implement a trie with insert, search, and startsWith methods.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/trie-insert-and-search/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/trie/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Add and Search Word (Trie + DFS)</h3>
+                <p>Design a data structure that supports adding and searching words with wildcards.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/trie-insert-and-search/" target="_blank">GFG Solution (Modify for wildcard)</a>
+                    <a href="https://www.interviewbit.com/problems/search-in-trie/" target="_blank">InterviewBit Solution (Similar)</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Word Search II (Trie + Backtracking)</h3>
+                <p>Find all words from a dictionary that exist in a 2D board of letters.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/word-search-board/" target="_blank">InterviewBit Solution (Similar)</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Top K Frequent Elements</h3>
+                <p>Given an array, return the k most frequent elements.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/find-k-numbers-occurrences-given-array/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/top-k-frequent-elements/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+            
+            <div class="problem">
+                <h3>Find Median from Data Stream</h3>
+                <p>Design a data structure that supports finding the median from a stream of numbers.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/median-of-array/" target="_blank">InterviewBit Solution (Similar)</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="bit-manipulation">
+            <h2>Bit Manipulation</h2>
+            
+            <div class="problem">
+                <h3>Bit Manipulation Questions</h3>
+                <p>Various problems involving bit manipulation techniques.</p>
+                <div class="links">
+                    <a href="https://www.geeksforgeeks.org/bits-manipulation-important-tactics/" target="_blank">GFG Solution</a>
+                    <a href="https://www.interviewbit.com/problems/bit-manipulation/" target="_blank">InterviewBit Solution</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Created with ❤️ for developers | Hosted on GitHub Pages</p>
+        </div>
+    </footer>
+</body>
+</html>
