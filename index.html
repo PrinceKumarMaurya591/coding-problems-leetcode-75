@@ -98,6 +98,9 @@
             
             <div class="problem">
                 <h3>Best Time to Buy and Sell Stock</h3>
+                <p> Traverse <p>
+                 <p> Price of the current day is greater than the previous day so buy at the previous day and sell at current day <p>
+                <p> Price of the current day is smaller day is less than the previous day so skip the current day <p>
                 <p>Find the maximum profit from buying and selling stocks.</p>
                 <div class="links">
                     <a href="https://www.geeksforgeeks.org/stock-buy-sell/" target="_blank">GFG Solution</a>
@@ -107,6 +110,7 @@
             
             <div class="problem">
                 <h3>Contains Duplicate</h3>
+                <p>freqMap.put(arr[i],freqMap.getOrDefault(arr[i], 0) + 1)</p>
                 <p>Check if array contains any duplicates.</p>
                 <div class="links">
                     <a href="https://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/" target="_blank">GFG Solution</a>
@@ -116,6 +120,7 @@
             
             <div class="problem">
                 <h3>Product of Array Except Self</h3>
+                <p>We use two passes: Left pass: Store product of all elements to the left of index i. Right pass: Multiply by the product of all elements to the right of index i.</p>
                 <p>Return an array where each element is the product of all elements except itself.</p>
                 <div class="links">
                     <a href="https://www.geeksforgeeks.org/product-array-puzzle-set-2-o1-space/" target="_blank">GFG Solution</a>
@@ -143,6 +148,7 @@
             
             <div class="problem">
                 <h3>Find Minimum in Rotated Sorted Array</h3>
+                <p>Binary Search - O(log n) Time and O(1) Space</p>
                 <p>Find the minimum element in a rotated sorted array.</p>
                 <div class="links">
                     <a href="https://www.geeksforgeeks.org/find-minimum-element-in-a-sorted-and-rotated-array/" target="_blank">GFG Solution</a>
@@ -152,6 +158,7 @@
             
             <div class="problem">
                 <h3>Search in Rotated Sorted Array</h3>
+                <p>Binary Search - O(log n) Time and O(1) Space</p>
                 <p>Search for a target value in a rotated sorted array.</p>
                 <div class="links">
                     <a href="https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/" target="_blank">GFG Solution</a>
@@ -161,6 +168,25 @@
             
             <div class="problem">
                 <h3>3Sum</h3>
+                <p>Approach
+Sort the array → Helps in skipping duplicates and using two-pointer technique.
+
+Fix one number at index i.
+
+Use two pointers (left, right) to find pairs such that:
+
+sql
+Copy
+Edit
+nums[i] + nums[left] + nums[right] == 0
+Move pointers based on sum:
+
+If sum is too small → left++
+
+If sum is too big → right--
+
+If sum is zero → store triplet and skip duplicates.</p>
+                
                 <p>Find all unique triplets in the array that sum to zero.</p>
                 <div class="links">
                     <a href="https://www.geeksforgeeks.org/find-triplets-array-whose-sum-equal-zero/" target="_blank">GFG Solution</a>
@@ -772,3 +798,4 @@
 </body>
 
 </html>
+
